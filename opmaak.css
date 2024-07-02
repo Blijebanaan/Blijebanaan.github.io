@@ -1,21 +1,24 @@
+/* Stijlen voor het <ul> element, dat de navigatielijst is */
 ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  list-style-type: none; /* Verwijdert de standaard lijststijlen (zoals bolletjes) */
+  margin: 0; /* Verwijdert de standaard marge rond de <ul> */
+  padding: 0; /* Verwijdert de standaard padding rond de <ul> */
+  overflow: hidden; /* Zorgt ervoor dat de inhoud binnen de <ul> blijft */
+  background-color: #333; /* Stelt de achtergrondkleur van de <ul> in op donkergrijs */
 }
+
+/* Stijlen voor elk <li> element binnen de <ul> */
 li{
-  float: left;
+  float: left; /* Zorgt ervoor dat de <li> elementen horizontaal naast elkaar worden geplaatst */
 }
 li a{
-  display: block;
-  color: white;
-  text-aligen: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block; /* Maakt de <a> elementen blokken, zodat padding en margin erop toegepast kunnen worden */
+  color: white; /* Stelt de tekstkleur van de links in op wit */
+  text-aligen: center; /* Centreert de tekst binnen de links */
+  padding: 14px 16px; /* Voegt padding toe binnen de links (14px boven en onder, 16px links en rechts) */
+  text-decoration: none; /* Verwijdert de standaard onderstreping van de links */
 }
-/* Change the link color to #111 (black) on hover */
+/* Verandert de achtergrondkleur van de links naar #111 (zwart) wanneer erover wordt gehoverd */
 li a hover {
   background-color: #111;
 }
